@@ -6,8 +6,8 @@
 
 [npm-image]: https://img.shields.io/npm/v/egg-session.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/egg-session
-[codecov-image]: https://codecov.io/github/eggjs/egg-session/coverage.svg?branch=master
-[codecov-url]: https://codecov.io/github/eggjs/egg-session?branch=master
+[codecov-image]: https://codecov.io/github/eggjs/session/coverage.svg?branch=3.x
+[codecov-url]: https://codecov.io/github/eggjs/session?branch=3.x
 [download-image]: https://img.shields.io/npm/dm/egg-session.svg?style=flat-square
 [download-url]: https://npmjs.org/package/egg-session
 
@@ -16,7 +16,7 @@ Session plugin for egg, based on [koa-session](https://github.com/koajs/session)
 ## Install
 
 ```bash
-npm i egg-session --save
+npm i egg-session@3 --save
 ```
 
 ## Usage
@@ -110,7 +110,7 @@ Support all configurations in [koa-session](https://github.com/koajs/session).
 Support not to print the session value when session event trigger log. Default to be true.
 ```
 
-[View the default configurations](https://github.com/eggjs/egg-session/blob/master/config/config.default.js)
+[View the default configurations](https://github.com/eggjs/session/blob/3.x/config/config.default.js)
 
 ## Questions & Suggestions
 
@@ -118,7 +118,7 @@ Please open an issue [here](https://github.com/eggjs/egg/issues).
 
 ## License
 
-[MIT](https://github.com/eggjs/egg-session/blob/master/LICENSE)
+[MIT](LICENSE)
 
 ## Contributors
 
