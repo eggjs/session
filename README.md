@@ -119,3 +119,9 @@ Please open an issue [here](https://github.com/eggjs/egg/issues).
 ## License
 
 [MIT](https://github.com/eggjs/egg-session/blob/master/LICENSE)
+
+## Contributors
+
+[![Contributors](https://contrib.rocks/image?repo=eggjs/session)](https://github.com/eggjs/session/graphs/contributors)
+
+Made with [contributors-img](https://contrib.rocks).
