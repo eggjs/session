@@ -9,9 +9,8 @@ on:
 jobs:
   Job:
     name: Node.js
-    uses: node-modules/github-actions/.github/workflows/node-test-mysql.yml@master
+    uses: node-modules/github-actions/.github/workflows/node-test.yml@master
     with:
-      os: 'ubuntu-latest'
-      version: '14, 16, 18, 20, 22'
+      version: '18.19.0, 20, 22'
     secrets:
       CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}

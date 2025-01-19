@@ -1,25 +1,23 @@
-'use strict';
-
-exports.get = function* (ctx) {
+exports.get = async function(ctx) {
   ctx.body = ctx.session;
 };
 
-exports.set = function* (ctx) {
+exports.set = async function(ctx) {
   ctx.session = ctx.query;
   ctx.body = ctx.session;
 };
 
-exports.setKey = function* (ctx) {
+exports.setKey = async function(ctx) {
   ctx.session.key = ctx.query.key;
   ctx.body = ctx.session;
 };
 
-exports.remove = function* (ctx) {
+exports.remove = async function(ctx) {
   ctx.session = null;
   ctx.body = ctx.session;
 };
 
-exports.maxAge = function* (ctx) {
-  ctx.session.maxAge = Number(this.query.maxAge);
+exports.maxAge = async function(ctx) {
+  ctx.session.maxAge = Number(ctx.query.maxAge);
   ctx.body = ctx.session;
 };

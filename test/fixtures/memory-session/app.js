@@ -1,19 +1,23 @@
-'use strict';
-
 const sessions = {};
 
-module.exports = app => {
-  app.sessionStore = {
-    async get(key) {
-      return sessions[key];
-    },
+module.exports = class AppBootHook {
+  constructor(app) {
+    this.app = app;
+  }
 
-    async set(key, value) {
-      sessions[key] = value;
-    },
-
-    async destroy(key) {
-      sessions[key] = undefined;
-    },
-  };
-};
+  async willReady() {
+    this.app.sessionStore = {
+      async get(key) {
+        return sessions[key];
+      },
+  
+      async set(key, value) {
+        sessions[key] = value;
+      },
+  
+      async destroy(key) {
+        sessions[key] = undefined;
+      },
+    };
+  }
+}

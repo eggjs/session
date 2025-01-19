@@ -1,5 +1,3 @@
-'use strict';
-
 exports.get = async ctx => {
   ctx.body = ctx.session;
 };
