@@ -1,3 +1,48 @@
+# Changelog
+
+## [4.0.0](https://github.com/eggjs/session/compare/v3.3.0...v4.0.0) (2025-01-19)
+
+
+### ⚠ BREAKING CHANGES
+
+* drop Node.js < 18.19.0 support
+
+part of https://github.com/eggjs/egg/issues/3644
+
+https://github.com/eggjs/egg/issues/5257
+
+<!-- This is an auto-generated comment: release notes by coderabbit.ai
+-->
+## Summary by CodeRabbit
+
+## Release Notes
+
+- **Package Upgrade**
+	- Renamed package from `egg-session` to `@eggjs/session`
+	- Updated Node.js compatibility to version 18.19.0+
+
+- **New Features**
+	- Enhanced session configuration with improved type safety
+	- Added support for more granular session management
+	- Improved logging and security configurations
+
+- **Breaking Changes**
+	- Dropped support for Node.js versions below 18.19.0
+	- Migrated from generator functions to async/await syntax
+	- Updated session middleware and configuration structure
+
+- **Performance**
+	- Updated dependencies, including `koa-session` to version 7.0.2
+	- Optimized session store handling
+
+- **Security**
+	- Strengthened default session configurations
+	- Added warnings for potential security risks in session settings
+<!-- end of auto-generated comment: release notes by coderabbit.ai -->
+
+### Features
+
+* support cjs and esm both by tshy ([#20](https://github.com/eggjs/session/issues/20)) ([b1a96e5](https://github.com/eggjs/session/commit/b1a96e5c254dadf6664499e7018246898751db2a))
 
 3.3.0 / 2021-03-23
 ==================
