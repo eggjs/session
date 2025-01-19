@@ -1,22 +1,29 @@
-# egg-session
+# @eggjs/session
 
 [![NPM version][npm-image]][npm-url]
+[![Node.js CI](https://github.com/eggjs/session/actions/workflows/nodejs.yml/badge.svg)](https://github.com/eggjs/session/actions/workflows/nodejs.yml)
 [![Test coverage][codecov-image]][codecov-url]
+[![Known Vulnerabilities][snyk-image]][snyk-url]
 [![npm download][download-image]][download-url]
+[![Node.js Version](https://img.shields.io/node/v/@eggjs/session.svg?style=flat)](https://nodejs.org/en/download/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com)
+![CodeRabbit Pull Request Reviews](https://img.shields.io/coderabbit/prs/github/eggjs/session)
 
-[npm-image]: https://img.shields.io/npm/v/egg-session.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/egg-session
-[codecov-image]: https://codecov.io/github/eggjs/egg-session/coverage.svg?branch=master
-[codecov-url]: https://codecov.io/github/eggjs/egg-session?branch=master
-[download-image]: https://img.shields.io/npm/dm/egg-session.svg?style=flat-square
-[download-url]: https://npmjs.org/package/egg-session
+[npm-image]: https://img.shields.io/npm/v/@eggjs/session.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/@eggjs/session
+[codecov-image]: https://codecov.io/gh/eggjs/session/branch/master/graph/badge.svg
+[codecov-url]: https://codecov.io/gh/eggjs/session
+[snyk-image]: https://snyk.io/test/npm/@eggjs/session/badge.svg?style=flat-square
+[snyk-url]: https://snyk.io/test/npm/@eggjs/session
+[download-image]: https://img.shields.io/npm/dm/@eggjs/session.svg?style=flat-square
+[download-url]: https://npmjs.org/package/@eggjs/session
 
 Session plugin for egg, based on [koa-session](https://github.com/koajs/session).
 
 ## Install
 
 ```bash
-npm i egg-session --save
+npm i @eggjs/session
 ```
 
 ## Usage
@@ -118,7 +125,7 @@ Please open an issue [here](https://github.com/eggjs/egg/issues).
 
 ## License
 
-[MIT](https://github.com/eggjs/egg-session/blob/master/LICENSE)
+[MIT](LICENSE)
 
 ## Contributors
 

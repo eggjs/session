@@ -1,10 +1,8 @@
-'use strict';
-
-exports.get = function* (ctx) {
+exports.get = async function(ctx) {
   ctx.body = ctx.session;
 };
 
-exports.set = function* (ctx) {
+exports.set = async function(ctx) {
   ctx.session = ctx.query;
   ctx.body = ctx.session;
 };
