@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.0.1](https://github.com/eggjs/session/compare/v4.0.0...v4.0.1) (2025-01-21)
+
+
+### Bug Fixes
+
+* should export sessionStore ([#21](https://github.com/eggjs/session/issues/21)) ([30e2b25](https://github.com/eggjs/session/commit/30e2b25864edf180695e42a90a8a8bbd9399d63a))
+
 ## [4.0.0](https://github.com/eggjs/session/compare/v3.3.0...v4.0.0) (2025-01-19)
 
 
