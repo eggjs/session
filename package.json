@@ -29,7 +29,7 @@
     "node": ">= 18.19.0"
   },
   "dependencies": {
-    "@eggjs/core": "^6.2.13",
+    "@eggjs/core": "^6.3.1",
     "koa-session": "^7.0.2",
     "zod": "^3.24.1"
   },
@@ -37,12 +37,12 @@
     "@arethetypeswrong/cli": "^0.17.1",
     "@eggjs/bin": "7",
     "@eggjs/mock": "^6.0.5",
+    "@eggjs/redis": "^3.0.0",
     "@eggjs/supertest": "^8.2.0",
     "@eggjs/tsconfig": "1",
     "@types/mocha": "10",
     "@types/node": "22",
-    "egg": "^4.0.1",
-    "egg-redis": "^2.6.0",
+    "egg": "^4.0.3",
     "eslint": "8",
     "eslint-config-egg": "14",
     "rimraf": "6",

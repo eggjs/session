@@ -41,19 +41,19 @@ egg-session support external store, you can store your sessions in redis, memcac
 
 For example, if you want to store session in redis, you must:
 
-1. Dependent [egg-redis](https://github.com/eggjs/egg-redis)
+1. Dependent [@eggjs/redis](https://github.com/eggjs/redis)
 
   ```bash
-  npm i --save egg-redis
+  npm i --save @eggjs/redis
   ```
 
-2. Import egg-redis as a plugin and set the configuration
+2. Import `@eggjs/redis` as a plugin and set the configuration
 
   ```js
   // config/plugin.js
   exports.redis = {
     enable: true,
-    package: 'egg-redis',
+    package: '@eggjs/redis',
   };
   ```
 
